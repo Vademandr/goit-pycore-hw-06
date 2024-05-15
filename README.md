@@ -105,7 +105,7 @@ Once implemented, your code should run as follows:
 
     # Search for a specific phone in a John record
     found_phone = john.find_phone("5555555555")
-    print(f"{john.name}: {found_phone}")  # Виведення: 5555555555
+    print(f"{john.name}: {found_phone}")  # Printing: 5555555555
 
     # Printing record Jane
     book.delete("Jane")
